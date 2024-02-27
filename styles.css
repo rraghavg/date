@@ -1,0 +1,57 @@
+body {
+    font-family: 'Parisienne', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7eaea; /* Light pink */
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: #f23566; /* Light red */
+    font-size: 3em;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #d22352; /* Red */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Parisienne', cursive;
+    font-size: 2em;
+}
+
+button:hover {
+    background-color: #ab1c3b; /* Dark red */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #d22352; /* Red */
+}
+
+.hidden {
+    display: none;
+}
